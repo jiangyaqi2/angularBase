@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a href="#">new</a>
+  </div>
+  <ul class="navbar-right">
+    <li><a routerLink="">首页</a></li>
+    <li ><a routerLink="" (click)="login($event)">登录</a></li>
+    <li ><a routerLink="" (click)="loginout($event)">退出登录</a></li>
+    <li><a href="#">系统帮助</a></li>
+  </ul>
+</nav>
+<table style="width: 100%">
+  <tr>
+    <td style="width: 205px; min-width: 205px; vertical-align: top;">
+      <!--<fun-nav></fun-nav>-->
+    </td>
+    <td style="padding-left:5px; vertical-align: top; overflow-x: auto; min-height: 800px;">
+      <div style="width: 100%; min-width: 800px; overflow-x: auto; min-height: 800px;    margin-top: 50px;">
+        <router-outlet></router-outlet>
+      </div>
+    </td>
+  </tr>
+</table>

@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+html {
+    font-size: 13px;
+}
+/*body {
+    font-size: 13px;
+    font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", Arial, Helvetica, sans-serif;
+    background-color: #DBEAFF;
+}
+
+
+.ui-widget {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", Arial, Helvetica, sans-serif !important;
+}*/
+
+/*body .ui-panel, body .ui-tabview-panel,body .ui-tree {
+    background-color:#DBEAFF !important;
+}
+
+body .ui-widget-header {
+    background-color: #eeeeee !important;
+}
+
+body .ui-datatable .ui-datatable-data > tr > td {
+    padding: .3em !important;
+}
+
+body .ui-datatable .ui-datatable-thead > tr > th {
+    padding: .3em !important;
+}*/
+
+.navbar {  
+  position: fixed;
+  top: 0px; left: 0px; right:0px;
+  height: 50px;
+  z-index: 1000;
+  background-color:#39547d;
+  background-image: url("assets/banner.png");
+  background-repeat: no-repeat;
+}
