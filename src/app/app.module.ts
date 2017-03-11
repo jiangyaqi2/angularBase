@@ -6,16 +6,20 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
+import { SystemModule } from "./system/system.module";
+import { SharedModule } from "./shared/shared.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    DemoComponent
+    DemoComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    SystemModule,
+    SharedModule,
     RouterModule.forRoot([
       {path: '', component: DemoComponent},
       {path: 'demo', component: DemoComponent}
