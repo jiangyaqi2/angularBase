@@ -9,6 +9,7 @@ export class DemoComponent implements OnInit {
 
   constructor() { }
 
+    selectedCities: string[] = [];
   ngOnInit() {
   }
 

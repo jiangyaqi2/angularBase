@@ -1,6 +1,6 @@
 
 :host {
-  /*padding-top: 50px;*/
+  padding-top: 50px;
   display: block;
   position: relative;
 }
@@ -8,12 +8,12 @@
 
 
 .navbar a {
-  /*color: #eeeeee;*/
+  color: #eeeeee;
   text-decoration: none;
 }
 
 .navbar a::hover {
-  /*color: white;*/
+  color: white;
   text-decoration-style: underline;
 }
 
@@ -50,7 +50,6 @@ ul.navbar-right > li {
   float:right;
 }
 
-/* Sidebar navigation */
 .sidebar {
   position:absolute;
   top: 40px;
@@ -64,10 +63,6 @@ ul.navbar-right > li {
   z-index: 900;
 }
 
-
-/*
- * Main content
- */
 .main {
   position: absolute;
   top:40px;
@@ -77,5 +72,4 @@ ul.navbar-right > li {
   padding-top: 5px;
   padding-left: 15px;
   padding-right: 10px;
-  
 }

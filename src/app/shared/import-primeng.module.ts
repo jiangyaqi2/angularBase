@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AccordionModule } from 'primeng/primeng';
+import { AccordionModule ,CheckboxModule} from 'primeng/primeng';
 import { SharedModule } from "./shared.module";
 @NgModule({
     imports: [
-        AccordionModule,
+        AccordionModule,CheckboxModule
         // SharedModule
     ],
-    exports: [AccordionModule],
-    // declarations: [AccordionModule]
+    exports: [AccordionModule,CheckboxModule],
+    // declarations: [SharedModule]
 })
 export class ImportPrimengModule { }
